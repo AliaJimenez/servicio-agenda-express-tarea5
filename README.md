@@ -1,6 +1,10 @@
-# Servicio web de agenda (Express)
+<h1>🔌 Contact Agenda API — Express</h1>
 
-Tarea 5 de Programación Web (PWEB). Servicio web hecho con [Express](https://expressjs.com/) de Node.js que realiza las dos operaciones básicas, listar y almacenar contactos, apoyándose en el servicio `http://www.raydelto.org/agenda.php` usado en las tareas anteriores.
+**EN** — REST API built with **Node.js + Express** that exposes `GET` and `POST /contactos`, validates input (`400`) and proxies a remote agenda service with proper error handling (`502`).
+
+> Part of a 3-step series · Parte de una serie: [Vanilla JS](https://github.com/AliaJimenez/js-contact-agenda) → [React](https://github.com/AliaJimenez/agenda-react-tarea4) → **Express API** (this repo).
+
+**ES** — Tarea 5 de Programación Web (PWEB). Servicio web hecho con [Express](https://expressjs.com/) de Node.js que realiza las dos operaciones básicas, listar y almacenar contactos, apoyándose en el servicio `http://www.raydelto.org/agenda.php` usado en las tareas anteriores.
 
 ## Endpoints
 
@@ -56,3 +60,7 @@ El servicio queda en `http://localhost:3000`. Se puede cambiar el puerto con la 
 src/
 └── server.js   # Servidor Express con las rutas GET y POST /contactos
 ```
+
+## 👩‍💻 Author · Autora
+
+**Aliandy Jimenez** — [@AliaJimenez](https://github.com/AliaJimenez)
